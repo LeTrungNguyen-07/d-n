@@ -138,7 +138,7 @@ int main() {
                 cout << " --- Danh Sách Xe Trong Bãi --- " << endl;            
                 long long tong_doanh_thu = 0;
                 int index = 0;
-    // Duyệt qua bãi xe (Tính Đa hình)
+        // Duyệt qua bãi xe (Tính Đa hình)
                 for (PhuongTien* pt : bai_xe) {
                 pt->xuatThongTin();
                 long long tien_goc = pt->tinhTienGui();
@@ -160,7 +160,7 @@ int main() {
             break;
         }
         case 4: {
-    // --- DEMO MÃ HÓA MÃ PIN THẺ TỪ (XOR ^) ---
+        // demo mã hoá mã pin thẻ từ (XOR ^)
             int pin;
             cout << " Nhập mã pin: ";
             cin >> pin;
